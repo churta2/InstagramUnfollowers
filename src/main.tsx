@@ -455,7 +455,7 @@ function App() {
                 }
                 await sleep(Math.floor(Math.random() * (6000 - 4000)) + 4000);
 
-                if (counter % 5 === 0) {
+                if (counter % 10 === 0) {
                     setToast({ show: true, text: 'Sleeping 5 minutes to prevent getting temp blocked' });
                     await sleep(300000);
                 }
